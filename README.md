@@ -11,12 +11,21 @@ And go to https://github.com/coreos/rocket
 ## Build this dockerfile, Run it
 
 On your machine
-```shell
-$ docker build -t="rlespinasse/rocket" https://github.com/rlespinasse/dockerfile-rocket
-$ docker run -i -t "rlespinasse/rocket" /bin/bash
+
+```sh
+$ docker build -t="rlespinasse/dockerfile-rocket" https://github.com/rlespinasse/dockerfile-rocket
+$ docker run -i -t "rlespinasse/dockerfile-rocket" /bin/bash
+```
+
+From docker hub
+
+```sh
+$ docker pull rlespinasse/dockerfile-rocket
+$ docker run -i -t "rlespinasse/dockerfile-rocket" /bin/bash
 ```
 
 And on the container
-```shell
+
+```sh
 > rkt help
 ```
