@@ -1,6 +1,6 @@
 # CoreOS/Rocket on Docker
 
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) ... et en même temps à quoi bon, le chtoubidou est parfait.
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 > Want to try Rocket, try it on Docker
 
